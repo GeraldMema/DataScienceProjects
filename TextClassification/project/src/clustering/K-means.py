@@ -33,6 +33,7 @@ def kMeans():
     stop.add("still")
     stop.add("time")
     stop.add("may")
+    stop.add("yes")
 
     # counter
     count_vect = CountVectorizer(stop_words=stop,min_df=0.03,max_df=0.95)
